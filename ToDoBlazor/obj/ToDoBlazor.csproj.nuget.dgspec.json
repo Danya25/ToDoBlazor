@@ -1,0 +1,354 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor\\ToDoBlazor.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Common\\ToDoBlazor.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Common\\ToDoBlazor.Common.csproj",
+        "projectName": "ToDoBlazor.Common",
+        "projectPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Common\\ToDoBlazor.Common.csproj",
+        "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.DAL\\ToDoBlazor.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.DAL\\ToDoBlazor.DAL.csproj",
+        "projectName": "ToDoBlazor.DAL",
+        "projectPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.DAL\\ToDoBlazor.DAL.csproj",
+        "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Common\\ToDoBlazor.Common.csproj": {
+                "projectPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Common\\ToDoBlazor.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Domain\\ToDoBlazor.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Domain\\ToDoBlazor.Domain.csproj",
+        "projectName": "ToDoBlazor.Domain",
+        "projectPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Domain\\ToDoBlazor.Domain.csproj",
+        "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Common\\ToDoBlazor.Common.csproj": {
+                "projectPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Common\\ToDoBlazor.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Service\\ToDoBlazor.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Service\\ToDoBlazor.Service.csproj",
+        "projectName": "ToDoBlazor.Service",
+        "projectPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Service\\ToDoBlazor.Service.csproj",
+        "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor\\ToDoBlazor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor\\ToDoBlazor.csproj",
+        "projectName": "ToDoBlazor",
+        "projectPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor\\ToDoBlazor.csproj",
+        "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Common\\ToDoBlazor.Common.csproj": {
+                "projectPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Common\\ToDoBlazor.Common.csproj"
+              },
+              "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.DAL\\ToDoBlazor.DAL.csproj": {
+                "projectPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.DAL\\ToDoBlazor.DAL.csproj"
+              },
+              "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Domain\\ToDoBlazor.Domain.csproj": {
+                "projectPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Domain\\ToDoBlazor.Domain.csproj"
+              },
+              "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Service\\ToDoBlazor.Service.csproj": {
+                "projectPath": "C:\\Users\\Black\\source\\repos\\ToDoBlazor\\ToDoBlazor.Service\\ToDoBlazor.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

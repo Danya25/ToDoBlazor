@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoBlazor.Common\ToDoBlazor.Common.csproj" />
+    <ProjectReference Include="..\ToDoBlazor.DAL\ToDoBlazor.DAL.csproj" />
+    <ProjectReference Include="..\ToDoBlazor.Domain\ToDoBlazor.Domain.csproj" />
+    <ProjectReference Include="..\ToDoBlazor.Service\ToDoBlazor.Service.csproj" />
+  </ItemGroup>
+
+</Project>

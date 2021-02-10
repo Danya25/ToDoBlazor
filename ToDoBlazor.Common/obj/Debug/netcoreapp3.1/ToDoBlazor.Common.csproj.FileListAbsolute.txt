@@ -1,0 +1,9 @@
+C:\Users\Black\source\repos\ToDoBlazor\ToDoBlazor.Common\bin\Debug\netcoreapp3.1\ToDoBlazor.Common.deps.json
+C:\Users\Black\source\repos\ToDoBlazor\ToDoBlazor.Common\bin\Debug\netcoreapp3.1\ToDoBlazor.Common.dll
+C:\Users\Black\source\repos\ToDoBlazor\ToDoBlazor.Common\bin\Debug\netcoreapp3.1\ToDoBlazor.Common.pdb
+C:\Users\Black\source\repos\ToDoBlazor\ToDoBlazor.Common\obj\Debug\netcoreapp3.1\ToDoBlazor.Common.csprojAssemblyReference.cache
+C:\Users\Black\source\repos\ToDoBlazor\ToDoBlazor.Common\obj\Debug\netcoreapp3.1\ToDoBlazor.Common.AssemblyInfoInputs.cache
+C:\Users\Black\source\repos\ToDoBlazor\ToDoBlazor.Common\obj\Debug\netcoreapp3.1\ToDoBlazor.Common.AssemblyInfo.cs
+C:\Users\Black\source\repos\ToDoBlazor\ToDoBlazor.Common\obj\Debug\netcoreapp3.1\ToDoBlazor.Common.csproj.CoreCompileInputs.cache
+C:\Users\Black\source\repos\ToDoBlazor\ToDoBlazor.Common\obj\Debug\netcoreapp3.1\ToDoBlazor.Common.dll
+C:\Users\Black\source\repos\ToDoBlazor\ToDoBlazor.Common\obj\Debug\netcoreapp3.1\ToDoBlazor.Common.pdb

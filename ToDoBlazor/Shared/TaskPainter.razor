@@ -1,0 +1,16 @@
+﻿<div class="h-100">
+    @if (Missions is null)
+    {
+        <h1>Loading..</h1>
+    }
+    else
+    {
+        <h1>Ready</h1>
+    }
+</div>
+
+@code {
+
+    [Parameter]
+    public List<MissionDTO> Missions { get; set; }
+}
